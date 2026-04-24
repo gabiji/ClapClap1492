@@ -37,9 +37,9 @@
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spr_ClapDown","path":"sprites/spr_ClapDown/spr_ClapDown.yy",},},
-    {"id":{"name":"spr_ClapLeft","path":"sprites/spr_ClapLeft/spr_ClapLeft.yy",},},
     {"id":{"name":"spr_ClapRight","path":"sprites/spr_ClapRight/spr_ClapRight.yy",},},
     {"id":{"name":"spr_ClapUp","path":"sprites/spr_ClapUp/spr_ClapUp.yy",},},
+    {"id":{"name":"spr_PunishedClapLeft","path":"sprites/spr_PunishedClapLeft/spr_PunishedClapLeft.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
