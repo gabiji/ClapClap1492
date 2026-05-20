@@ -1,0 +1,1 @@
+healAmount = 2;

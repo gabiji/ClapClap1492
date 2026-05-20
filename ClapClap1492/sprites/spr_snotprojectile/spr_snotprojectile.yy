@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"achoo",
+    "path":"folders/Sprites/Game Sprites/achoo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

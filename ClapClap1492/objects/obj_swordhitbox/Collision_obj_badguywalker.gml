@@ -16,3 +16,6 @@ other.stunTimer = 20;
 if other.enemy_health <= 0 {
     instance_destroy(other);
 }
+
+//score
+obj_game.score_points += 50;

@@ -1,17 +1,26 @@
-if clap_health <= 0 {
-    room_goto(rm_TitleScreen);
+// CUT THE MUSIC WE'RE ON THE MENU 
+if room == rm_TitleScreen {
+    if isMusicPlaying {
+        audio_stop_sound(currentTrack);
+        isMusicPlaying = false;
+        currentTrack = noone;
+    }
+    exit;
 }
-if room != rm_TitleScreen {
-    // If the music is NOT already playing get that tune BUMPIN 
-    if !musicPlaying {
-        audio_play_sound(mus_MainlevelthemeTemp, 1, true);
-        musicPlaying = true;
-    }
+// choses track for room you can go in here and add more ifs if you wanna have diff tracks for diff rooms 
+var desiredTrack = noone;
+if room == rm_dung1_room000 {
+    desiredTrack = mus_Accoustic;
 } else {
-    // We ARE on the title screen STOP THE MUSIC 
-    if musicPlaying {
-        audio_stop_sound(mus_MainlevelthemeTemp);
-        musicPlaying = false;
+    desiredTrack = mus_MainlevelthemeTemp;
+}
+
+if !isMusicPlaying || currentTrack != desiredTrack {
+    if isMusicPlaying {
+        audio_stop_sound(currentTrack);
     }
+    audio_play_sound(desiredTrack, 1, true);
+    currentTrack = desiredTrack;
+    isMusicPlaying = true;
 }
 //Music initialised by SAM park 

@@ -1,3 +1,3 @@
-targetRoom = rm_dung1_room1;
-spawnX = 320;
-spawnY = 736;
+targetRoom = rm_dung1_room2;
+spawnX = 352;
+spawnY = 1216;

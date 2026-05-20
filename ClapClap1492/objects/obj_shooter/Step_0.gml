@@ -23,7 +23,7 @@ if timeUntilNextShot <= 0 {
     bullet.direction = point_direction(x, y, player.x, player.y);
 	bullet.image_angle = point_direction(x, y, player.x, player.y); //i did this (mari)
 	bullet.sprite_index = spr_snotprojectile;
-    bullet.speed = 4;
+    bullet.speed = 8;
     timeUntilNextShot = 60; // reset cooldown
 }
 //as per usual shooter by Sam Park 
