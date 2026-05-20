@@ -27,7 +27,7 @@
   "origin":0,
   "parent":{
     "name":"debug",
-    "path":"folders/Sprites/PLACEHOLDER STUFF!!/debug.yy",
+    "path":"folders/Sprites/Game Sprites/debug.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

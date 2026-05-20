@@ -3,9 +3,10 @@
   "%Name":"ts_PLACEHOLDER",
   "autoTileSets":[],
   "macroPageTiles":{
-    "SerialiseHeight":0,
-    "SerialiseWidth":0,
-    "TileSerialiseData":[],
+    "SerialiseHeight":5,
+    "SerialiseWidth":4,
+    "TileCompressedData":[-10,0,-6,70,1,0,-3,70,],
+    "TileDataFormat":1,
   },
   "name":"ts_PLACEHOLDER",
   "out_columns":46,

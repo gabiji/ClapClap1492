@@ -1,5 +1,6 @@
 other.enemy_health -= 1;
 audio_play_sound(snd_bloodspill,0,0,1)
+audio_play_sound(snd_ough,0,0,1)
 //Knockback stuff
 var knockX = other.x - x;
 var knockY = other.y - y;

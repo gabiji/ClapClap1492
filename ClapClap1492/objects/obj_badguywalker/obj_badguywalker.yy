@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_theglutton",
-    "path":"sprites/spr_theglutton/spr_theglutton.yy",
+    "name":"spr_FlickHorizontal",
+    "path":"sprites/spr_FlickHorizontal/spr_FlickHorizontal.yy",
   },
   "spriteMaskId":null,
   "visible":true,

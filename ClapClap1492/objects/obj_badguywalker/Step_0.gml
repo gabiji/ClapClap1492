@@ -25,12 +25,12 @@ if distanceToPlayer > 1 {
 if isMoving {
     if abs(yToPlayer) > abs(xToPlayer) {
         if yToPlayer < 0 {
-            sprite_index = spr_ClapUp;
+            sprite_index = spr_FlickUp;
         } else {
-            sprite_index = spr_ClapDown;
+            sprite_index = spr_FlickDown;
         }
     } else {
-        sprite_index = spr_ClapHorizontal;
+        sprite_index = spr_FlickHorizontal;
         if xToPlayer < 0 {
             image_xscale = -0.5;
         } else {

@@ -10,7 +10,6 @@ if keyboard_check(ord("W")) {
     direction = 180;
     sprite_index = spr_ClapUp;
     moving = true;
-	audio_play_sound(snd_walking, 1, true);
 }
 if keyboard_check(ord("A")) {
     x -= move;
@@ -18,14 +17,12 @@ if keyboard_check(ord("A")) {
     sprite_index = spr_ClapHorizontal;
     image_xscale = -0.5; //optimization at its finest
     moving = true;
-	audio_play_sound(snd_walking, 1, true);
 }
 if keyboard_check(ord("S")) {
     y += move;
     direction = 0;
     sprite_index = spr_ClapDown;
     moving = true;
-	audio_play_sound(snd_walking, 1, true);
 }
 if keyboard_check(ord("D")) {
     x += move;
@@ -33,12 +30,15 @@ if keyboard_check(ord("D")) {
     sprite_index = spr_ClapHorizontal;
     image_xscale = 0.5;
     moving = true;
-	audio_play_sound(snd_walking, 1, true);
 }
 // animation control
 if moving {
     clap_moving = true;
     image_speed = 1;
+	if audio_is_playing(snd_walking) =! true
+	{
+		audio_play_sound(snd_walking, 1, true);
+	}
 
 } else {
     clap_moving = false;

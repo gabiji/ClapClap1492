@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.53696144,
   "exportDir":"",
   "name":"snd_aircut",
   "parent":{
