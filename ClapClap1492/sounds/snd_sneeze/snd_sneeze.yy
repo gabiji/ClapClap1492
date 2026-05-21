@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"mus_Accoustic",
+  "%Name":"snd_sneeze",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,17 +10,17 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":19.512018,
+  "duration":0.69121915,
   "exportDir":"",
-  "name":"mus_Accoustic",
+  "name":"snd_sneeze",
   "parent":{
-    "name":"Music",
-    "path":"folders/Sounds/Music.yy",
+    "name":"sfx",
+    "path":"folders/Sounds/sfx.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
-  "sampleRate":44100,
-  "soundFile":"mus_Accoustic.mp3",
+  "sampleRate":5512,
+  "soundFile":"snd_sneeze.ogg",
   "volume":1.0,
 }

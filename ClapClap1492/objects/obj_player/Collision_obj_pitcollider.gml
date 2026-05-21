@@ -1,0 +1,1 @@
+obj_freebird.image_alpha=1

@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ClapDown",
-    "path":"sprites/spr_ClapDown/spr_ClapDown.yy",
+    "name":"spr_AchooDown",
+    "path":"sprites/spr_AchooDown/spr_AchooDown.yy",
   },
   "spriteMaskId":null,
   "visible":true,

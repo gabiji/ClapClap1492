@@ -59,6 +59,40 @@ if place_meeting(x - move, y, obj_collider) {
 if place_meeting(x, y - move, obj_collider) {
     y += move;
 }
+
+if bird_obtained = false
+{
+if place_meeting(x + move, y, obj_pitcollider) {
+    x -= move;
+}
+if place_meeting(x, y + move, obj_pitcollider) {
+    y -= move;
+}
+if place_meeting(x - move, y, obj_pitcollider) {
+    x += move;
+}
+if place_meeting(x, y - move, obj_pitcollider) {
+    y += move;
+}
+}
+
+if key_obtained = false
+{
+if place_meeting(x + move, y, obj_doorcollider) {
+    x -= move;
+}
+if place_meeting(x, y + move, obj_doorcollider) {
+    y -= move;
+}
+if place_meeting(x - move, y, obj_doorcollider) {
+    x += move;
+}
+if place_meeting(x, y - move, obj_doorcollider) {
+    y += move;
+}
+//NIGHTMARENIGHTMARENIGHTMARE (Mari)
+
+}
 //attack code
 if keyboard_check_pressed(vk_space) {
     var swordX = x;
@@ -93,4 +127,5 @@ if keyboard_check_pressed(vk_space) {
 
     }
 }
+obj_freebird.image_alpha=0
 //Originally by Maribel refined greatly by Sam Park

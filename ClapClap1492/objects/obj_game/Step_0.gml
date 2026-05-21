@@ -9,11 +9,8 @@ if room == rm_TitleScreen {
 }
 // choses track for room you can go in here and add more ifs if you wanna have diff tracks for diff rooms 
 var desiredTrack = noone;
-if room == rm_dung1_room000 {
-    desiredTrack = mus_Accoustic;
-} else {
     desiredTrack = mus_MainlevelthemeTemp;
-}
+
 
 if !isMusicPlaying || currentTrack != desiredTrack {
     if isMusicPlaying {
