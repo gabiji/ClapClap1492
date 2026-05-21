@@ -1,16 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_door",
+  "%Name":"obj_boss1",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_door",
+  "name":"obj_boss1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Game Logic Objects",
-    "path":"folders/Objects/Game Logic Objects.yy",
+    "name":"Baddies",
+    "path":"folders/Objects/Game Objects/Baddies.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -26,16 +27,14 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v2","%Name":"sprite_index","filters":[],"listItems":[],"multiselect":false,"name":"sprite_index","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sprite_index","varType":4,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_door",
-    "path":"sprites/spr_door/spr_door.yy",
+    "name":"spr_Boss1Horizontal",
+    "path":"sprites/spr_Boss1Horizontal/spr_Boss1Horizontal.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

@@ -1,6 +1,6 @@
 // Finding player code! 
 var target = obj_enemytarget;
-var enemySpeed = 1;
+var enemySpeed = 2.5;
 var xToPlayer = target.x - x;
 var yToPlayer = target.y - y;
 //Proof that i know basic math
@@ -25,16 +25,16 @@ if distanceToPlayer > 1 {
 if isMoving {
     if abs(yToPlayer) > abs(xToPlayer) {
         if yToPlayer < 0 {
-            sprite_index = spr_FlickUp;
+            sprite_index = spr_Boss1Up;
         } else {
-            sprite_index = spr_FlickDown;
+            sprite_index = spr_Boss1Down;
         }
     } else {
-        sprite_index = spr_FlickHorizontal;
+        sprite_index = spr_Boss1Horizontal;
         if xToPlayer < 0 {
-            image_xscale = -0.5;
+            image_xscale = -1;
         } else {
-            image_xscale = 0.5;
+            image_xscale = 1;
         }
     }
     image_speed = 1;

@@ -1,4 +1,5 @@
 obj_game.clap_health -= 1;
+audio_play_sound(snd_ouch, 1, false);
 //This makes the enemy bounce back from the player in the but in the correct direction this time ! 
 var knockbackX = x - other.x;
 var knockbackY = y - other.y;
